@@ -3,7 +3,7 @@ This project has been made to test NVIDIA NeMo models and runtime on minicompute
 
 ## Reports
 1) `.csv`-reports can be found in the [reports](reports)-folder
-2) `.pdf`-reports with explanations on preliminary results can be found in the [reports](reports)-folder
+2) `.pdf`-reports with explanations on preliminary results can be found in the [reports-pdf](reports-pdf)-folder
 
 ## Installation
 Before using these project and its notebooks, check the [machines section](#machines-and-their-specific-details) below to see if specific asr-runtime is available.
