@@ -12,6 +12,7 @@ Overall, try to install NeMo library, then ONNX, or Riva as a last resort
 2) `pip install onnxruntime`
 3) If you're running [Riva-ASR](https://docs.nvidia.com/deeplearning/riva/user-guide/docs/asr/asr-overview.html)-device, run `riva_start.sh` first to start the docker container and then youn can run a Riva-cell in a traversal-notebook
 4) Add `.nemo`/`.onnx`-models and `.yaml`-model-description files to the `models`-directory or download use cells from  _[ASR NeMo-ONNX Conversion.ipynb](ASR%20NeMo-ONNX%20Conversion.ipynb)_ to download NeMo model from remote and convert it to ONNX
+5) Since GitHub restricts the usage of the files, only some audio files has been added to this project in the [datasets](datasets)-folder. You can choose any dataset from [LibriSpeech ASR corpus](https://www.openslr.org/12) and put the `.tar.gz`-file in the [datasets](datasets)-folder to use in _[ASR Librispeech Wav Audios Preparation.ipynb](ASR%20Librispeech%20Wav%20Audios%20Preparatioin.ipynb)_-notebook to prepare `.wav`-s for transcription
 
 ## Jupyter notebooks to use
 - _[ASR Librispeech Wav Audios Preparation.ipynb](ASR%20Librispeech%20Wav%20Audios%20Preparatioin.ipynb)_ - unzipping a dataset in a
