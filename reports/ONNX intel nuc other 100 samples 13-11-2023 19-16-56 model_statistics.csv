@@ -1,0 +1,2 @@
+Model path,Model size (MB),Memory usage (MB),Model load time (sec),Inference time (hh:mm:ss),Dataset samples count,Dataset length (hh:mm:ss),RTF (%),WER (%),MER (%),WIL (%),WIP (%),CER (%)
+models/stt_en_citrinet_1024.onnx,545.7506160736084,588.25,0.375,0:00:39,100,0:10:25,6.29,4.07,4.05,7.18,92.82,1.58
